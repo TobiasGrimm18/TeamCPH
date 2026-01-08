@@ -1,0 +1,17 @@
+# Navigate to your repository
+cd TeamCPH
+
+# Create the "Group 1" folder
+mkdir "Group 1"
+
+# Create a placeholder file inside (required for Git to track the folder)
+touch "Group 1/. gitkeep"
+
+# Stage the new folder and file
+git add "Group 1/. gitkeep"
+
+# Commit the changes
+git commit -m "Add Group 1 folder"
+
+# Push to GitHub
+git push origin main
